@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "mercadopago/dx-php": "2.6.2"
+    }
+}

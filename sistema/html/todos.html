@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="VB-Soluções">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Pioneirismo e compromisso DashVB.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Page Title  -->
+    <title>Pedidos Todos | DashLite Admin</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/dashlite.css?ver=2.6.0">
+    <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=2.6.0">
+
+    <style>
+        #form-checkout {
+          display: flex;
+          flex-direction: column;
+          max-width: 600px;
+        }
+    
+        .container {
+          height: 18px;
+          display: inline-block;
+          border: 1px solid rgb(118, 118, 118);
+          border-radius: 2px;
+          padding: 1px 2px;
+        }
+      </style>
+</head>
+
+<body class="nk-body bg-lighter npc-general has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+             <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap">
+                            <div class="nk-menu-trigger d-xl-none ml-n1">
+                                <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                            </div>
+                            <div class="nk-header-brand d-xl-none">
+                                <a href="html/index.html" class="logo-link">
+                                    <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                                    <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                </a>
+                            </div>
+                            
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    
+                                    
+                                </ul><!-- .nk-quick-nav -->
+                            </div><!-- .nk-header-tools -->
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <p>Starter page for general layout.</p>
+                               
+                                <div id="expirationDate"></div>
+                                <div id="cardNumber"></div>
+                                <div id="securityCode"> </div>
+                                
+                                
+                                <!-- <form id="form-checkout">
+                                    <div id="form-checkout__cardNumber" class="container"></div>
+                                    <div id="form-checkout__expirationDate" class="container"></div>
+                                    <div id="form-checkout__securityCode" class="container"></div>
+                                    <input type="text" id="form-checkout__cardholderName" />
+                                    <select id="form-checkout__issuer"></select>
+                                    <select id="form-checkout__installments"></select>
+                                    <select id="form-checkout__identificationType"></select>
+                                    <input type="text" id="form-checkout__identificationNumber" />
+                                    <input type="email" id="form-checkout__cardholderEmail" />
+                        
+                                    <button type="submit" id="form-checkout__submit">Pagar</button>
+                                    <progress value="0" class="progress-bar">Carregando...</progress>
+                                </form> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+                            <div class="nk-footer-copyright"> &copy; 2024 DashLite. por <a href="https://vbsolucoesgroup.com.br" target="_blank">VB-Soluções</a>
+                            </div>
+                            <!-- <div class="nk-footer-links">
+                                <ul class="nav nav-sm">
+                                    <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+    
+    <script src="https://sdk.mercadopago.com/js/v2"></script> 
+    <script src="./assets/js/bundle.js?ver=2.6.0"></script>
+    <script src="./assets/js/scripts.js?ver=2.6.0"></script>
+    <script src="./assets/js/pagamento.js"></script>
+    
+</body>
+
+</html>
